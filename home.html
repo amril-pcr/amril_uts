@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Dark Angels Terminal</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+    <nav class="pixel-nav">
+        <div class="nav-logo">⚔️ DARK_ANGELS.EXE</div>
+        <ul class="nav-links">
+            <li><a href="/" class="active">HOME</a></li>
+            <li><a href="/profile">PROFILE</a></li>
+        </ul>
+    </nav>
+
+    <div class="pixel-container">
+        <div class="pixel-box main-hero animate-fade">
+            <h1 class="pixel-title">WELCOME, BROTHER</h1>
+            <div class="pixel-divider"></div>
+            <p class="pixel-text">
+                Selamat datang di website profil pribadi saya.<br>
+                Sistem terenkripsi. Berjalan di bawah komando Chapter Dark Angels.
+            </p>
+            <div class="btn-group">
+                <a href="/profile" class="pixel-btn">AKSES PROFIL</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
